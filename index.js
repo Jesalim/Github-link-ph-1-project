@@ -72,4 +72,3 @@ const getLike = document.querySelectorAll('.like');
 // returns the function that *is* called when the
 // button is clicked, and updates the count
 getLike.forEach(like => like.addEventListener('click', likeClick(), false));
-
