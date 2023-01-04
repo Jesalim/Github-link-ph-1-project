@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Generator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <!-- added font awesome kit -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Random Image Generator!</h1>
+        <div class="image-container hide">
+            <h3>Image by: <span class="author"></span></h3>
+
+            <!-- added an image class -->
+            <figure>
+                <img src="" class="img" alt="" />
+            </figure>
+        </div>
+
+        <button>Generator image!</button>
+
+
+        <div id="opslag-gruppe">
+            <div class="opslag">
+                <div class="bar">
+
+                    <button class="like">
+                        <!-- added a like button -->
+                        <i class="fa fa-heart" style="font-size:48px;color:red"></i>
+                    </button>
+
+
+                    <p class="likeNum">0</p>
+                </div>
+            </div>
+
+
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <input type="text" id="comment-box" placeholder="Enter comment">
+        <button id="submit">submit</button>
+        <ul id="unordered">
+
+        </ul>
+
+        <!-- <button class="likeButton">Like</button> -->
+    </div>
+
+    <!-- nmeleta div main hadi apa chini ndo istyle kila kitu -->
+
+
+
+
+</body>
+
+</html>
